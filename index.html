@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">  
+</head>
+<body>
+    <div class="form">
+        <form class="form1">
+            <div>
+            <input type="text" placeholder="Name" class="form11">
+        </div>
+        <div class="form2">
+        <input type="email" placeholder="Email" class="form22" >
+    </div>
+        <section class="date">
+        <label class="labell">
+            Pick a date  <input type="number" placeholder="MM" required class="form3" min="1" max="12"> 
+            <input type="number" placeholder="DD" required class="form4" min="1" max="31">
+            <input type="number" placeholder="YYYY" required class="form5" min="1950" max="2021">
+        </label>
+    </section>
+        <section class="time">
+        <label class="labell">
+            Pick a time <input type="number" placeholder="09" class="form6" min="01" max="12">
+            <input type="number" placeholder="00" class="form7" min="00" max="59">
+        
+<select name="AM" id="AM" class=form8>
+    <option value="AM" selected><strong>AM</strong> </option>
+    <option value="PM">PM </option>
+</select> 
+<img src="./icons/icon-arrow.svg" alt="arrow" class="amImg">
+
+        </label>
+    </section>
+    <div class="people">
+      <input type="button" id="sub" value="-" onclick="btn2()">
+      <span id="empty"></span>
+      <input type="button" id="add" value="+" onclick="btn1()">
+</div>
+<hr class="line">
+    <button type="submit" id="makeRes" onclick="mysubmit()">MAKE RESERVATION</button>
+        </form>
+    </div>
+    <script>
+        function mysubmit(){
+            alert("Your reservation has been made!")
+        }
+        let y = 0;
+        let x = '$(y) people';
+        document.getElementById("empty").innerHTML = x;
+
+        function btn1(){
+            if (y >= 0){
+                y++;
+                if (y == 1){
+                    document.getElementById("empty").innerHTML = '$(y) person';
+                } else{
+                   document.getElementById("empty").innerHTML = '$(y) people'; 
+                }
+            }
+        }
+
+        function btn2() {
+            if (y > 0){
+                y--;
+                if (y === 0){
+                    document.getElementById("empty").innerHTML = '$(y) people';
+                }else if ( y === 1){
+                    document.getElementById("empty").innerHTML = '$(y) person';
+                } else {
+                    document.getElementById("empty").innerHTML = '$(y) people';
+                }
+            }
+        }
+    </script> 
+</body>
+</html>

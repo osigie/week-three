@@ -1,0 +1,132 @@
+.form{
+    background-color: white;
+    margin: 170px 0 0 325px;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    margin: auto;
+    
+}
+.form3{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 0px;
+}
+
+        
+    .line{
+        border: 0px 0px 0.5px 0px;
+        border-width: 0.5px;
+        width: 400px;
+        margin:0 5px 0px 40px  ;
+    }
+    .input{
+        border-color: white;
+    }
+    .form11{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+    width: 400px;
+    margin:30px 40px 15px 40px  ;
+    }
+    .form22{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width: 400px;
+        margin:15px 5px 20px 40px  ;
+    }
+    .form3{  background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width: 75.9px;
+        margin: 0 10px 0px 50px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .form4{ background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width: 75.9px;
+        margin: 0 10px 0 5px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .form5{ background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width: 75.9px;
+        margin: 0 10px 0 5px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .form6{ background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width:75.9px;
+        margin: 0 10px 0 50px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .form7{ background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width:75.9px;
+        margin: 0 10px 0 5px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .form8{ background: transparent;
+        border: none;
+        border-bottom: 1px solid;
+        width: 75.9px;
+        margin: 0 10px 20px 5px;
+    padding-left: 10px;
+    padding-bottom: 17px;
+    padding-top: 5px;
+    position: absolute;
+}
+
+    #makeRes{
+        margin:20px 40px 20px 40px ;
+        width: 400px;
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+    .date{margin: 20px 40px 40px 40px;
+    
+    }
+    .time{margin: 30px 10px 40px 40px;
+    
+    }
+    .amImg{
+        margin-left: 15px;
+        left: 30px;
+        position: relative;
+        width: 15px;
+   bottom: -3px;
+    }
+
+    select{
+        appearance: none;
+    }
+    .people{
+    margin: 20px 20px 0 20px;
+    }
+    .labell{
+        bottom: 2000px;
+    }
+    #add{
+        appearance: none;
+        border: none;
+        background-color: white;
+        color: brown;
+    }
+    #sub{
+        appearance: none;
+        border: none;
+        background-color: white;
+        color: brown;
+    }
